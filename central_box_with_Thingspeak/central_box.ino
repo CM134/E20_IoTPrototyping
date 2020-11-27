@@ -156,7 +156,7 @@ void loop() {
     ThingSpeak.setField(3,Sensor_values[2]);
     ThingSpeak.writeFields(channelID, myWriteAPIKey);
     client.stop();
-    delay(postingInterval);
+    //delay(postingInterval);
     
   }
   else {
